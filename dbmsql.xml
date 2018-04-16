@@ -1,0 +1,14 @@
+shell> mysql -uindependiente --xml -e aero9090 'SELECT * FROM markers ORDER BY name'
+<?xml version="1.0"?>
+
+<resultset statement="SELECT * FROM markers ORDER BY name" 
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <row>
+        <field name="id">Ciudad de Méico</field>
+        <field name="name">Mexico</field>
+        <field name="address">8591309</field>
+        <field name="lat">8591309</field>
+        <field name="lng">8591309</field>
+        <field name="type">8591309</field>        
+  </row>
+</resultset>
